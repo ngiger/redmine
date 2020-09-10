@@ -216,6 +216,10 @@ issue_list_default_columns:
 issue_list_default_totals:
   serialized: true
   default: []
+display_under_single_revision:
+  default: true
+display_under_associated_revisions:
+  default: true
 display_subprojects_issues:
   default: 1
 time_entry_list_defaults:

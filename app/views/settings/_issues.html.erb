@@ -24,7 +24,16 @@
 <p><%= setting_text_field :gantt_items_limit, :size => 6 %></p>
 
 <p><%= setting_text_field :gantt_months_limit, :size => 6 %></p>
+
 </div>
+<fieldset class="box">
+  <legend><%= l(:label_display_revision_branches) %></legend>
+  <div class="tabular settings">
+<p><%= setting_check_box :display_under_single_revision %></p>
+
+<p><%= setting_check_box :display_under_associated_revisions %></p>
+  </div>
+</fieldset>
 
 <fieldset class="box">
   <legend><%= l(:label_parent_task_attributes) %></legend>
